@@ -1,0 +1,15 @@
+[package]
+name = "fs2kvpairs2rbat"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.tokio]
+version = "1"
+default-features = false
+features = [
+	"macros",
+	"rt-multi-thread",
+]
+
+[dependencies.rs-kvpairs2rbat]
+path = "../.."
